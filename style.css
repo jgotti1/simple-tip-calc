@@ -1,0 +1,161 @@
+* {
+  font-family: "M PLUS Rounded 1c", Avenir Next, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  background: #8990ec;
+}
+
+h1 {
+  text-shadow: 3px 3px 10px #9595a0;
+  height: 10px;
+  font-size: 35px;
+
+  text-decoration: wavy;
+}
+
+hr {
+  color: white;
+  margin-bottom: 20px;
+}
+.wrapper {
+  height: 550px;
+  width: 340px;
+  color: white;
+  background: #272639;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  margin: 100px auto;
+}
+
+#topContainer {
+  margin-top: 4rem;
+}
+
+.container {
+  margin-top: 1.4rem;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 0.1rem;
+}
+
+.inputContainer {
+  background: #353959;
+  border-radius: 1.4rem;
+  padding: 0 0.4rem;
+  display: flex;
+  align-items: center;
+  height: 2rem;
+}
+.dropDown option {
+  background: #353959;
+}
+
+#billTotalInput,
+#tipInput {
+  font-size: 1rem;
+  background: none;
+  border: none;
+  outline: none;
+  padding: none;
+}
+
+.buttonContainer {
+  background: none;
+  display: grid;
+  /* place-items: center; */
+}
+
+.splitButton {
+  background: #8990ec;
+  border: none;
+  height: 1.6rem;
+  border-radius: 50%;
+  width: 2rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.splitButton {
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+}
+
+.buttonText {
+  color: #353959 !important;
+  text-align: center;
+}
+
+.resetDiv {
+  margin-top: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.totalDiv {
+  margin-top: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reset {
+  color: #353959 !important;
+  background: #8990ec;
+  height: 2.1rem;
+  width: 4.6rem;
+  border: 0px;
+  border-radius: 10%;
+  box-shadow: 3px 3px 10px #5b5e79;
+}
+.splitAmount {
+  font-size: 1.6rem;
+  margin: 0.8rem;
+}
+
+#bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.total {
+  font-size: 2.8rem;
+  margin-top: 12px;
+  background: #353959;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.total-tip {
+  font-size: 1.5rem;
+}
+
+.tipAmount {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.tipRow {
+  display: flex;
+  justify-content: space-between;
+}
+.tipCol {
+  display: flex;
+  flex-direction: column;
+}
